@@ -2,9 +2,20 @@
   "companyName": "嘉点科技（武汉）有限公司",
   "industry": "软件和信息技术服务业",
   "subIndustry": "企业级SaaS/协同办公生态服务",
-  "version": "1.0",
+  "version": "1.1",
   "lastUpdated": "2026-04-07",
+  "status": "draft",
   "completionRate": 35,
+  "constraints": {
+    "budget": {
+      "signal": "预算大约在50w左右",
+      "interpretation": "预算量级明确，约50万元"
+    },
+    "timeline": {
+      "signal": "项目期望12月底上线",
+      "interpretation": "项目启动时间紧迫，需在12月底前完成交付"
+    }
+  },
   "needs": [
     {
       "id": 1,
@@ -38,7 +49,7 @@
       "id": 3,
       "category": "客户反馈管理",
       "title": "客户反馈问题管理",
-      "description": "客户提的问题分散在微信、邮件、 电话里，处理到哪一步客户不知道。需要统一入口，提交后谁处理、什么时候解决，客户能查到。",
+      "description": "客户提的问题分散在微信、邮件、电话里，处理到哪一步客户不知道。需要统一入口，提交后谁处理、什么时候解决，客户能查到。",
       "priority": "must",
       "confidence": "high",
       "source": {
@@ -111,13 +122,21 @@
         "id": 1,
         "question": "您这次选型有预算范围吗，大概什么量级？",
         "reason": "了解预算有助于推荐合适的版本，基础版/专业版/企业版价格差不少。",
-        "category": "预算"
+        "category": "预算",
+        "status": "answered",
+        "answer": "预算大约在50w左右",
+        "answeredAt": "2026-04-07",
+        "source": "沟通摘要"
       },
       {
         "id": 2,
         "question": "希望系统多快能用起来？有没有时间节点？",
         "reason": "紧迫程度决定实施节奏和方案优先级。",
-        "category": "时间"
+        "category": "时间",
+        "status": "answered",
+        "answer": "项目期望12月底上线",
+        "answeredAt": "2026-04-07",
+        "source": "沟通摘要"
       },
       {
         "id": 3,
@@ -169,6 +188,23 @@
         "reason": "定制开发验收扯皮，可能需要电子化交付确认。",
         "category": "交付管理"
       }
+    ]
+  },
+  "salesInput": {
+    "overallAssessment": {
+      "customerIntent": "强烈",
+      "projectUrgency": "紧急",
+      "budgetSituation": "充足",
+      "winProbability": "中"
+    },
+    "notes": "客户配合度高，主动要求尽快出方案及报价，决策意愿明确",
+    "concerns": [
+      "12月底上线时间紧张",
+      "50w预算能否覆盖全部需求"
+    ],
+    "suggestions": [
+      "尽快安排需求沟通会议",
+      "提前准备方案框架"
     ]
   }
 }
