@@ -1,210 +1,345 @@
 {
   "companyName": "嘉点科技（武汉）有限公司",
-  "industry": "软件和信息技术服务业",
-  "subIndustry": "企业级SaaS/协同办公生态服务",
-  "version": "1.1",
-  "lastUpdated": "2026-04-07",
+  "version": "v0.1",
   "status": "draft",
-  "completionRate": 35,
-  "constraints": {
-    "budget": {
-      "signal": "预算大约在50w左右",
-      "interpretation": "预算量级明确，约50万元"
-    },
-    "timeline": {
-      "signal": "项目期望12月底上线",
-      "interpretation": "项目启动时间紧迫，需在12月底前完成交付"
-    }
-  },
-  "needs": [
+  "currentVersion": "v0.1",
+  "versions": [
     {
-      "id": 1,
-      "category": "项目管理",
-      "title": "软件开发项目进度管理",
-      "description": "同时推进好几个软件开发项目，老板看不到每个项目进展到哪一步了。需要甘特图或看板，让管理者实时掌握项目状态。",
-      "priority": "must",
-      "confidence": "high",
-      "source": {
-        "type": "customer-stated",
-        "detail": "客户原话确认",
-        "raw": "需要项目管理系统，主要来管理现在在进行的软件开发的项目进度"
-      },
-      "estimatedEffort": "中"
-    },
-    {
-      "id": 2,
-      "category": "需求管理",
-      "title": "软件开发需求管理",
-      "description": "软件开发中需求经常变，改来改去最后不知道哪个版本是最终的。需要系统记录需求变更历史，评审通过后才能动。",
-      "priority": "must",
-      "confidence": "high",
-      "source": {
-        "type": "customer-stated",
-        "detail": "客户原话确认",
-        "raw": "需求和客户反馈的问题等"
-      },
-      "estimatedEffort": "中"
-    },
-    {
-      "id": 3,
-      "category": "客户反馈管理",
-      "title": "客户反馈问题管理",
-      "description": "客户提的问题分散在微信、邮件、电话里，处理到哪一步客户不知道。需要统一入口，提交后谁处理、什么时候解决，客户能查到。",
-      "priority": "must",
-      "confidence": "high",
-      "source": {
-        "type": "customer-stated",
-        "detail": "客户原话确认",
-        "raw": "需求和客户反馈的问题等"
-      },
-      "estimatedEffort": "中"
-    },
-    {
-      "id": 4,
-      "category": "项目管理",
-      "title": "多项目看板与资源视图",
-      "description": "所有项目在一个页面能看到整体状态，资源有没有冲突、哪些项目卡住了，一眼就能看出来。",
-      "priority": "should",
-      "confidence": "medium",
-      "source": {
-        "type": "industry-analogous",
-        "detail": "行业痛点库推演",
-        "raw": "多项目并行混乱、进度不透明、资源冲突"
-      },
-      "estimatedEffort": "中"
-    },
-    {
-      "id": 5,
-      "category": "任务管理",
-      "title": "任务分配与执行追踪",
-      "description": "项目拆成具体任务，分配给谁、什么时候交付，完成情况自动提醒，避免遗漏和延期。",
-      "priority": "should",
-      "confidence": "medium",
-      "source": {
-        "type": "industry-analogous",
-        "detail": "行业痛点库推演 + 档案推演",
-        "raw": "交付管理：需求变更频繁、交付延期"
-      },
-      "estimatedEffort": "低"
-    },
-    {
-      "id": 6,
-      "category": "知识管理",
-      "title": "项目文档与知识沉淀",
-      "description": "每个项目的需求文档、设计方案、操作手册集中存放，新人接手或跨项目协作时不用再到处找。",
-      "priority": "could",
-      "confidence": "low",
-      "source": {
-        "type": "inference",
-        "detail": "基于业务模式推演",
-        "raw": "定制开发项目制企业，文档沉淀是质量保障基础"
-      },
-      "estimatedEffort": "中"
-    },
-    {
-      "id": 7,
-      "category": "数据分析",
-      "title": "项目报表与分析看板",
-      "description": "老板想看项目工时、延期率、需求变更次数这些数据，系统能直接导出或展示，不用手工统计。",
-      "priority": "could",
-      "confidence": "low",
-      "source": {
-        "type": "inference",
-        "detail": "基于痛点严重程度推演",
-        "raw": "多项目并行下，进度不透明催生数据化管控需求"
-      },
-      "estimatedEffort": "高"
+      "version": "v0.1",
+      "createdAt": "2026-04-07T00:00:00Z",
+      "trigger": "cold-start",
+      "inputSummary": "基于客户档案冷启动推演，无拜访记录、无知识库匹配",
+      "changeSummary": [
+        "从档案推演11条需求，覆盖项目管理/交付管理/客户管理/知识管理/回款管理/报表分析",
+        "识别5类用户角色：创始人/总经理、项目经理、方案顾问/售前、实施工程师/开发、销售/客户成功",
+        "生成7个待验证问题，分screening/deep-dive/closing三阶段"
+      ]
     }
   ],
-  "pendingQuestions": {
-    "required": [
-      {
-        "id": 1,
-        "question": "您这次选型有预算范围吗，大概什么量级？",
-        "reason": "了解预算有助于推荐合适的版本，基础版/专业版/企业版价格差不少。",
-        "category": "预算",
-        "status": "answered",
-        "answer": "预算大约在50w左右",
-        "answeredAt": "2026-04-07",
-        "source": "沟通摘要"
-      },
-      {
-        "id": 2,
-        "question": "希望系统多快能用起来？有没有时间节点？",
-        "reason": "紧迫程度决定实施节奏和方案优先级。",
-        "category": "时间",
-        "status": "answered",
-        "answer": "项目期望12月底上线",
-        "answeredAt": "2026-04-07",
-        "source": "沟通摘要"
-      },
-      {
-        "id": 3,
-        "question": "团队里哪些人会用这套系统？项目经理、开发、售前还是都要？",
-        "reason": "49人以下小团队，用户规模影响产品选型和报价。",
-        "category": "规模"
-      },
-      {
-        "id": 4,
-        "question": "现在并行几个项目？团队最头疼的是哪类问题？",
-        "reason": "聚焦具体痛点，演示时更容易击中需求。",
-        "category": "痛点验证"
-      },
-      {
-        "id": 5,
-        "question": "目前有在用其他项目管理工具吗，Teambition、Jira 或其他？",
-        "reason": "影响迁移方式决定和是否需要数据导入。",
-        "category": "现有系统"
-      }
-    ],
-    "optional": [
-      {
-        "id": 6,
-        "question": "客户那边能不能直接进系统提交问题、看处理进度？",
-        "reason": "客户反馈闭环是核心诉求之一，需要确认是否需要客户侧入口。",
-        "category": "客户协同"
-      },
-      {
-        "id": 7,
-        "question": "数据报表方面，最想看哪几个指标，工时、延期率还是变更次数？",
-        "reason": "了解报表深度，决定走标准功能还是需要定制开发。",
-        "category": "数据分析"
-      },
-      {
-        "id": 8,
-        "question": "嘉点是钉钉五星服务商，这套系统需要和钉钉消息、待办同步吗？",
-        "reason": "钉钉生态背景强，集成需求可能较高。",
-        "category": "生态集成"
-      },
-      {
-        "id": 9,
-        "question": "需求变更这块，最卡的是哪个环节，记录、评审还是通知执行？",
-        "reason": "精准定位卡点，方案设计才能有的放矢。",
-        "category": "痛点验证"
-      },
-      {
-        "id": 10,
-        "question": "项目交付确认时，需要电子签章吗，比如验收签字在线完成？",
-        "reason": "定制开发验收扯皮，可能需要电子化交付确认。",
-        "category": "交付管理"
-      }
-    ]
-  },
-  "salesInput": {
-    "overallAssessment": {
-      "customerIntent": "强烈",
-      "projectUrgency": "紧急",
-      "budgetSituation": "充足",
-      "winProbability": "中"
+  "current": {
+    "background": {
+      "businessContext": "钉钉生态ISV，以项目制交付+服务订阅为主业，团队20-49人，服务政企客户（东风系汽车零部件厂商、湖北社科院、教育部门），创始人黄中军90%控股决策链短，6-12个月内面临钉钉AI化窗口期压力。",
+      "currentChallenges": [],
+      "triggerEvent": "",
+      "currentSystems": [],
+      "painPoints": [],
+      "expectedOutcomes": []
     },
-    "notes": "客户配合度高，主动要求尽快出方案及报价，决策意愿明确",
-    "concerns": [
-      "12月底上线时间紧张",
-      "50w预算能否覆盖全部需求"
+    "needs": [
+      {
+        "id": "REQ-001",
+        "category": "项目管理",
+        "title": "多项目并行进度可视化",
+        "description": "政企项目与制造业项目同时并行，当前缺乏统一视图，项目经理难以实时掌握各项目进展、资源占用和风险状态。需支持甘特图/看板展示项目进度，支持跨项目资源冲突预警。",
+        "priority": "must",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "档案推演", "raw": null },
+        "status": "active",
+        "module": "",
+        "relatedPainPoints": ["多项目并行实施，进度不透明"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-002",
+        "category": "项目管理",
+        "title": "项目工时与成本核算",
+        "description": "多个项目同时推进，人力成本、资源消耗无法精确统计，项目利润率核算滞后。需要工时填报、成本归集和利润分析能力。",
+        "priority": "should",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "档案推演", "raw": null },
+        "status": "active",
+        "module": "",
+        "relatedPainPoints": ["多项目并行实施，资源冲突风险高"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-003",
+        "category": "交付管理",
+        "title": "需求变更追踪与版本管理",
+        "description": "定制开发项目中客户频繁变更需求，导致交付延期和验收扯皮。需记录需求变更历史、评估影响（工期/成本）、线上确认变更单。",
+        "priority": "must",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "档案推演", "raw": null },
+        "status": "active",
+        "module": "",
+        "relatedPainPoints": ["定制开发项目需求变更频繁、交付延期"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-004",
+        "category": "交付管理",
+        "title": "项目交付里程碑与验收管理",
+        "description": "项目从启动到验收缺乏标准化节点管控，交付物提交和客户确认流程不清晰。需支持里程碑设置、交付物清单、线上验收签字。",
+        "priority": "must",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "档案推演", "raw": null },
+        "status": "active",
+        "module": "",
+        "relatedPainPoints": ["交付延期、验收扯皮"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-005",
+        "category": "客户管理",
+        "title": "客户反馈与问题闭环",
+        "description": "项目交付后客户反馈分散在微信、邮件等多个渠道，缺乏统一记录和闭环追踪机制，无法统计客户满意度。需统一入口记录、分类、分派、验收确认。",
+        "priority": "should",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "档案推演", "raw": null },
+        "status": "active",
+        "module": "",
+        "relatedPainPoints": ["客户信息分散、销售过程不透明"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-006",
+        "category": "知识管理",
+        "title": "行业方案知识库沉淀",
+        "description": "汽车零部件、政企数字化等垂直行业方案经验沉淀在个人脑中，新人上手慢，方案复用率低。需支持文档上传、标签分类、全文检索和权限管理。",
+        "priority": "must",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "档案推演", "raw": null },
+        "status": "active",
+        "module": "",
+        "relatedPainPoints": ["行业方案经验沉淀在个人脑中，新人培养慢"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-007",
+        "category": "知识管理",
+        "title": "项目实施过程文档归档",
+        "description": "项目实施过程中的需求文档、设计方案、会议纪要、测试报告等材料分散存放，项目结束后难以追溯复用。需统一归档、自动关联项目。",
+        "priority": "should",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "档案推演", "raw": null },
+        "status": "active",
+        "module": "",
+        "relatedPainPoints": ["行业方案经验沉淀在个人脑中"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-008",
+        "category": "客户管理",
+        "title": "政企客户生命周期管理",
+        "description": "政企客户信息分散在销售个人手中，销售过程不透明，续约依赖个人关系维护。需统一记录客户信息、跟进计划、续约预警，支持从项目制向订阅制转型。",
+        "priority": "should",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "档案推演", "raw": null },
+        "status": "active",
+        "module": "",
+        "relatedPainPoints": ["客户信息分散、续约依赖个人关系"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-009",
+        "category": "回款管理",
+        "title": "项目回款节点跟踪",
+        "description": "政企项目账期长、回款节点多，销售和财务难以同步跟进，存在坏账风险。需关联合同付款条款、到期提醒和实际回款登记。",
+        "priority": "should",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "档案推演", "raw": null },
+        "status": "active",
+        "module": "",
+        "relatedPainPoints": ["政企项目账期长、回款难跟踪"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-010",
+        "category": "数据分析",
+        "title": "项目经营数据仪表盘",
+        "description": "管理层无法实时获取项目营收、成本、利润、回款等核心经营指标，决策缺乏数据支撑。需提供可视化仪表盘，支持自定义时间范围和维度筛选。",
+        "priority": "must",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "档案推演", "raw": null },
+        "status": "active",
+        "module": "",
+        "relatedPainPoints": ["多项目并行，进度不透明"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-011",
+        "category": "数据分析",
+        "title": "服务订阅收入分析",
+        "description": "服务订阅制转型过程中，需跟踪订阅客户数、ARR、续费率、增购率等关键指标，评估订阅业务健康度。",
+        "priority": "could",
+        "confidence": "low",
+        "source": { "type": "profile-inference", "detail": "档案推演", "raw": null },
+        "status": "active",
+        "module": "",
+        "relatedPainPoints": ["从项目制向订阅制转型"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      }
     ],
-    "suggestions": [
-      "尽快安排需求沟通会议",
-      "提前准备方案框架"
-    ]
-  }
+    "users": [
+      {
+        "role": "创始人/总经理（黄中军）",
+        "description": "最终决策者，关注项目利润率和公司整体经营数据，对报表分析需求最强。需要全局视角的仪表盘。",
+        "mainTasks": ["查看项目经营仪表盘", "审批重要决策", "跟踪回款状态"]
+      },
+      {
+        "role": "项目经理/项目总监",
+        "description": "负责多项目并行管理，关注项目进度、资源冲突、工时统计和交付里程碑。需要进度可视化和交付管理工具。",
+        "mainTasks": ["多项目进度跟踪", "资源排程", "需求变更评估", "交付里程碑管理"]
+      },
+      {
+        "role": "方案顾问/售前",
+        "description": "负责行业方案编写和新客户开拓，需要知识库支撑方案复用，需要客户信息管理。",
+        "mainTasks": ["方案文档撰写", "知识库查阅与贡献", "客户需求分析"]
+      },
+      {
+        "role": "实施工程师/开发人员",
+        "description": "执行项目交付，关注任务分配、需求变更记录和交付物提交。",
+        "mainTasks": ["任务执行", "工时填报", "交付物提交"]
+      },
+      {
+        "role": "销售/客户成功",
+        "description": "负责客户跟进、续约和增购，关注客户生命周期管理和回款节点。",
+        "mainTasks": ["客户信息维护", "续约跟进", "回款协调"]
+      }
+    ],
+    "constraints": {
+      "budget": {},
+      "timeline": {},
+      "technical": {},
+      "organizational": {}
+    },
+    "pendingQuestions": [
+      {
+        "id": "PQ-001",
+        "category": "现有系统",
+        "priority": "必问",
+        "stage": "screening",
+        "question": "公司目前是否有使用任何项目管理工具（如Teambition、Jira、飞书等）？如果有，目前的使用覆盖了哪些场景，哪些痛点还没解决？",
+        "purpose": "了解竞品使用情况，评估迁移成本和关键差异点",
+        "expectedDirection": "无使用→全场景覆盖，有使用→聚焦未解决痛点",
+        "targetPerson": "黄中军或项目经理",
+        "relatedNeedIds": ["REQ-001", "REQ-002"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-002",
+        "category": "技术",
+        "priority": "必问",
+        "stage": "screening",
+        "question": "团队内部协同目前主要用什么工具（钉钉/飞书/微信/企业微信/其他）？",
+        "purpose": "评估与现有工具链的集成需求，优先选与钉钉深度集成的方案",
+        "expectedDirection": "已用钉钉→集成需求强",
+        "targetPerson": "黄中军",
+        "relatedNeedIds": ["REQ-001", "REQ-005"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-003",
+        "category": "痛点验证",
+        "priority": "必问",
+        "stage": "deep-dive",
+        "question": "多项目并行时，最突出的矛盾是资源冲突（人员时间撞车）、进度不透明，还是成本不可控？三者中哪个对业务的伤害最大？",
+        "purpose": "确定核心痛点，优先在需求优先级上对齐",
+        "expectedDirection": "明确最痛点后聚焦",
+        "targetPerson": "黄中军或项目经理",
+        "relatedNeedIds": ["REQ-001", "REQ-002", "REQ-010"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-004",
+        "category": "痛点验证",
+        "priority": "必问",
+        "stage": "deep-dive",
+        "question": "定制开发项目的需求变更频率如何？是否有正式的变更流程？每次变更从提出到确认通常需要多长时间？",
+        "purpose": "评估需求变更管理的紧迫程度，细化REQ-003的方案设计",
+        "expectedDirection": "高频+无流程→强需求变更管理",
+        "targetPerson": "项目经理",
+        "relatedNeedIds": ["REQ-003", "REQ-004"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-005",
+        "category": "业务",
+        "priority": "选问",
+        "stage": "deep-dive",
+        "question": "汽车零部件行业方案目前有哪些关键文档和模板可以沉淀到知识库？知识库的主要使用者是方案顾问还是实施工程师？",
+        "purpose": "评估知识库建设的工作量和落地路径",
+        "expectedDirection": "明确内容资产量和目标用户",
+        "targetPerson": "方案顾问或黄中军",
+        "relatedNeedIds": ["REQ-006", "REQ-007"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-006",
+        "category": "业务",
+        "priority": "选问",
+        "stage": "deep-dive",
+        "question": "政企客户的续约决策通常提前多久开始？目前续约过程中最薄弱的环节是什么（信息缺失、客户关系断层、价值呈现不足）？",
+        "purpose": "细化客户成功/CRM需求的紧迫性和落地方式",
+        "expectedDirection": "明确续约流程薄弱点",
+        "targetPerson": "黄中军",
+        "relatedNeedIds": ["REQ-008", "REQ-009"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-007",
+        "category": "时间",
+        "priority": "必问",
+        "stage": "closing",
+        "question": "对本次调研输出的解决方案，核心决策时间节点是什么？黄总希望在什么时间看到可演示的原型或demo？",
+        "purpose": "对齐销售节奏，推动进入POC/演示阶段",
+        "expectedDirection": "明确时间线后规划方案节奏",
+        "targetPerson": "黄中军",
+        "relatedNeedIds": [],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      }
+    ],
+    "completionRate": {
+      "overall": 25,
+      "byCategory": {
+        "项目管理": 25,
+        "交付管理": 25,
+        "客户管理": 25,
+        "知识管理": 25,
+        "回款管理": 25,
+        "数据分析": 25
+      },
+      "blockers": []
+    }
+  },
+  "salesInput": {},
+  "successCriteria": {},
+  "risksAndAssumptions": {},
+  "solutionDirection": {}
 }
