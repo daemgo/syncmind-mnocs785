@@ -1,0 +1,15 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "date": "2026-04-01",
+      "type": "拜访",
+      "content": "客户明确需要项目管理系统，管理软件开发项目的进度、需求和客户反馈问题",
+      "attendees": [],
+      "actions": [
+        { "action": "收集客户当前使用的工具和项目管理痛点", "owner": "销售", "assignee": "", "deadline": null, "done": false, "completedAt": null },
+        { "action": "了解项目数量、团队规模和现有流程", "owner": "售前", "assignee": "", "deadline": null, "done": false, "completedAt": null }
+      ]
+    }
+  ]
+}

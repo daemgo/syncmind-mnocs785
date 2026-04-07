@@ -1,0 +1,174 @@
+{
+  "companyName": "嘉点科技（武汉）有限公司",
+  "industry": "软件和信息技术服务业",
+  "subIndustry": "企业级SaaS/协同办公生态服务",
+  "version": "1.0",
+  "lastUpdated": "2026-04-07",
+  "completionRate": 35,
+  "needs": [
+    {
+      "id": 1,
+      "category": "项目管理",
+      "title": "软件开发项目进度管理",
+      "description": "同时推进好几个软件开发项目，老板看不到每个项目进展到哪一步了。需要甘特图或看板，让管理者实时掌握项目状态。",
+      "priority": "must",
+      "confidence": "high",
+      "source": {
+        "type": "customer-stated",
+        "detail": "客户原话确认",
+        "raw": "需要项目管理系统，主要来管理现在在进行的软件开发的项目进度"
+      },
+      "estimatedEffort": "中"
+    },
+    {
+      "id": 2,
+      "category": "需求管理",
+      "title": "软件开发需求管理",
+      "description": "软件开发中需求经常变，改来改去最后不知道哪个版本是最终的。需要系统记录需求变更历史，评审通过后才能动。",
+      "priority": "must",
+      "confidence": "high",
+      "source": {
+        "type": "customer-stated",
+        "detail": "客户原话确认",
+        "raw": "需求和客户反馈的问题等"
+      },
+      "estimatedEffort": "中"
+    },
+    {
+      "id": 3,
+      "category": "客户反馈管理",
+      "title": "客户反馈问题管理",
+      "description": "客户提的问题分散在微信、邮件、 电话里，处理到哪一步客户不知道。需要统一入口，提交后谁处理、什么时候解决，客户能查到。",
+      "priority": "must",
+      "confidence": "high",
+      "source": {
+        "type": "customer-stated",
+        "detail": "客户原话确认",
+        "raw": "需求和客户反馈的问题等"
+      },
+      "estimatedEffort": "中"
+    },
+    {
+      "id": 4,
+      "category": "项目管理",
+      "title": "多项目看板与资源视图",
+      "description": "所有项目在一个页面能看到整体状态，资源有没有冲突、哪些项目卡住了，一眼就能看出来。",
+      "priority": "should",
+      "confidence": "medium",
+      "source": {
+        "type": "industry-analogous",
+        "detail": "行业痛点库推演",
+        "raw": "多项目并行混乱、进度不透明、资源冲突"
+      },
+      "estimatedEffort": "中"
+    },
+    {
+      "id": 5,
+      "category": "任务管理",
+      "title": "任务分配与执行追踪",
+      "description": "项目拆成具体任务，分配给谁、什么时候交付，完成情况自动提醒，避免遗漏和延期。",
+      "priority": "should",
+      "confidence": "medium",
+      "source": {
+        "type": "industry-analogous",
+        "detail": "行业痛点库推演 + 档案推演",
+        "raw": "交付管理：需求变更频繁、交付延期"
+      },
+      "estimatedEffort": "低"
+    },
+    {
+      "id": 6,
+      "category": "知识管理",
+      "title": "项目文档与知识沉淀",
+      "description": "每个项目的需求文档、设计方案、操作手册集中存放，新人接手或跨项目协作时不用再到处找。",
+      "priority": "could",
+      "confidence": "low",
+      "source": {
+        "type": "inference",
+        "detail": "基于业务模式推演",
+        "raw": "定制开发项目制企业，文档沉淀是质量保障基础"
+      },
+      "estimatedEffort": "中"
+    },
+    {
+      "id": 7,
+      "category": "数据分析",
+      "title": "项目报表与分析看板",
+      "description": "老板想看项目工时、延期率、需求变更次数这些数据，系统能直接导出或展示，不用手工统计。",
+      "priority": "could",
+      "confidence": "low",
+      "source": {
+        "type": "inference",
+        "detail": "基于痛点严重程度推演",
+        "raw": "多项目并行下，进度不透明催生数据化管控需求"
+      },
+      "estimatedEffort": "高"
+    }
+  ],
+  "pendingQuestions": {
+    "required": [
+      {
+        "id": 1,
+        "question": "您这次选型有预算范围吗，大概什么量级？",
+        "reason": "了解预算有助于推荐合适的版本，基础版/专业版/企业版价格差不少。",
+        "category": "预算"
+      },
+      {
+        "id": 2,
+        "question": "希望系统多快能用起来？有没有时间节点？",
+        "reason": "紧迫程度决定实施节奏和方案优先级。",
+        "category": "时间"
+      },
+      {
+        "id": 3,
+        "question": "团队里哪些人会用这套系统？项目经理、开发、售前还是都要？",
+        "reason": "49人以下小团队，用户规模影响产品选型和报价。",
+        "category": "规模"
+      },
+      {
+        "id": 4,
+        "question": "现在并行几个项目？团队最头疼的是哪类问题？",
+        "reason": "聚焦具体痛点，演示时更容易击中需求。",
+        "category": "痛点验证"
+      },
+      {
+        "id": 5,
+        "question": "目前有在用其他项目管理工具吗，Teambition、Jira 或其他？",
+        "reason": "影响迁移方式决定和是否需要数据导入。",
+        "category": "现有系统"
+      }
+    ],
+    "optional": [
+      {
+        "id": 6,
+        "question": "客户那边能不能直接进系统提交问题、看处理进度？",
+        "reason": "客户反馈闭环是核心诉求之一，需要确认是否需要客户侧入口。",
+        "category": "客户协同"
+      },
+      {
+        "id": 7,
+        "question": "数据报表方面，最想看哪几个指标，工时、延期率还是变更次数？",
+        "reason": "了解报表深度，决定走标准功能还是需要定制开发。",
+        "category": "数据分析"
+      },
+      {
+        "id": 8,
+        "question": "嘉点是钉钉五星服务商，这套系统需要和钉钉消息、待办同步吗？",
+        "reason": "钉钉生态背景强，集成需求可能较高。",
+        "category": "生态集成"
+      },
+      {
+        "id": 9,
+        "question": "需求变更这块，最卡的是哪个环节，记录、评审还是通知执行？",
+        "reason": "精准定位卡点，方案设计才能有的放矢。",
+        "category": "痛点验证"
+      },
+      {
+        "id": 10,
+        "question": "项目交付确认时，需要电子签章吗，比如验收签字在线完成？",
+        "reason": "定制开发验收扯皮，可能需要电子化交付确认。",
+        "category": "交付管理"
+      }
+    ]
+  }
+}
