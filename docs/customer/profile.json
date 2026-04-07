@@ -1,104 +1,98 @@
 {
-  "analysisPath": "B",
-  "confidence": 25,
-  "companyName": "武汉嘉点科技有限公司",
+  "analysisPath": "A",
+  "confidence": 75,
+  "companyName": "嘉点科技（武汉）有限公司",
   "shortName": "嘉点科技",
-  "summary": "武汉地区科技型企业 [假设待验证]",
-  "industry": "科技/软件",
-  "subIndustry": "软件开发/IT服务 [假设待验证]",
-  "scale": "中小企业 [假设待验证]",
-  "mainBusiness": "软件开发与技术服务的科技公司 [假设待验证]",
-  "products": [],
-  "targetCustomers": [],
-  "businessModel": "产品销售/技术服务 [假设待验证]",
-  "rating": null,
-  "tags": [],
+  "summary": "阿里钉钉五星服务商，专注政企客户数智化转型，以专属钉钉部署、Teambition协同及行业解决方案为核心业务。",
+  "industry": "软件和信息技术服务业",
+  "subIndustry": "企业级SaaS/协同办公生态服务",
+  "scale": "1-49人",
+  "mainBusiness": "钉钉生态部署与定制开发（专属钉钉、Teambition）、政企数字化转型解决方案、汽车零部件行业数智协同平台",
+  "products": [
+    { "name": "专属钉钉", "description": "为企业定制化的钉钉部署与集成服务" },
+    { "name": "Teambition项目管理", "description": "作为Teambition核心代理提供项目协同与任务管理方案" },
+    { "name": "数字区县", "description": "区县级政府数字化治理解决方案" },
+    { "name": "汽车零部件数智协同平台", "description": "与钉钉联合打造的行业级数字化管控方案，入选5G+工业互联网大会典型案例" }
+  ],
+  "targetCustomers": ["政企客户", "汽车/制造业（东风系等）", "区县级政府"],
+  "businessModel": "项目制+服务订阅制，依托钉钉生态做实施交付与定制开发",
+  "rating": "",
+  "tags": ["钉钉五星服务商", "Teambition核心代理", "政企数字化", "汽车零部件行业方案", "武汉高新企业", "未融资", "创始人控股", "生态型ISV", "高新技术企业"],
   "website": null,
   "slogan": null,
   "isListed": false,
   "stockCode": null,
-  "revenueScale": null,
+  "revenueScale": "百万级（小型SaaS服务商，未披露具体数字）",
   "registration": {
-    "registeredName": null,
-    "registeredCapital": null,
+    "registeredName": "嘉点科技（武汉）有限公司",
+    "registeredCapital": "1000万人民币",
     "paidCapital": null,
-    "establishedDate": null,
-    "legalRepresentative": null,
-    "businessStatus": null,
-    "shareholders": [],
+    "establishedDate": "2021-05-12",
+    "legalRepresentative": "黄中军",
+    "businessStatus": "存续",
+    "shareholders": [
+      { "name": "黄中军", "type": "自然人", "ratio": "90%" },
+      { "name": "沈雪妮", "type": "自然人", "ratio": "10%" }
+    ],
     "branchCount": null,
-    "interpretation": null,
-    "organizationType": "民营企业 [假设待验证]",
-    "keyFindings": []
+    "interpretation": "注册资本1000万但实缴未披露，1000万注册额对49人以下规模公司偏高，可能为招投标资质要求而非真实资金实力；自然人股东90/10结构为典型创始人控股型民营企业，无国资或机构投资背景，决策链短但资金杠杆有限。",
+    "organizationType": "创始人控股型创业公司",
+    "keyFindings": [
+      "创始人黄中军90%绝对控股，决策高度集中，合作谈判可直接触达决策者",
+      "注册资本1000万未见实缴信息，实际资金实力需通过项目交付能力侧面验证",
+      "2021年成立至今无分支机构，处于聚焦本地市场的单点经营阶段"
+    ]
   },
   "hiring": {
-    "keySignals": []
+    "keySignals": [
+      "售前架构师+大客户销售+Java开发同时招聘，表明公司处于'扩大销售覆盖+增强交付能力'双轨扩张期",
+      "招聘钉钉大客户销售（6-12k）和软件销售（5-10k），薪资处于武汉中等水平，团队规模尚小",
+      "招聘Java开发工程师（中级），技术栈以Java为主，定位为实施交付型而非产品研发型团队",
+      "多个岗位持续在招，人员流动性可能较高 [假设待验证]"
+    ]
   },
   "competition": {
     "industryRank": null,
     "marketShare": null,
-    "mainCompetitors": [],
-    "knownClients": []
+    "mainCompetitors": ["其他钉钉生态区域服务商", "企业微信/飞书的区域代理商", "本地SaaS集成商"],
+    "knownClients": ["东风富士汤姆森调温器有限公司", "湖北省社会科学院", "武汉部分区县教育部门 [假设待验证]"]
   },
   "organization": {
-    "type": "创业型/中小规模团队 [假设待验证]",
-    "decisionChain": "创始人/老板主导，技术负责人配合评估，执行层决策链短 [假设待验证]",
-    "keyPersons": [],
-    "salesStrategy": "建议直接对接创始人或技术负责人，突出产品价值和交付能力"
+    "type": "创始人控股型创业公司（20-49人）",
+    "decisionChain": "创始人/法人黄中军为核心决策者（90%控股+执行董事+经理），技术类采购由黄中军直接拍板；项目级合作可由项目经理/售前对接后报黄中军确认。决策链短，通常1-2轮沟通即可推进。",
+    "keyPersons": [
+      { "name": "黄中军", "title": "创始人/法定代表人/执行董事兼经理（实际控制人）" },
+      { "name": "罗煜昊", "title": "监事" },
+      { "name": "刘双喜", "title": "财务负责人" },
+      { "name": "沈雪妮", "title": "股东（10%，角色待验证）" }
+    ],
+    "salesStrategy": "直接对接黄中军，强调与钉钉生态的协同增量而非替代价值，用汽车零部件行业案例证明交付能力，快速推进小规模POC验证"
   },
   "timing": {
-    "phase": "需实地了解 [假设待验证]",
-    "analysisBasis": ["网络信息缺失，无法判断"],
-    "entryStrategy": "建议通过电话/拜访确认需求阶段后制定切入策略",
-    "urgency": "待确认"
+    "phase": "扩张强化期",
+    "analysisBasis": [
+      "同时招聘售前+销售+开发多岗位，表明业务扩张需求",
+      "2024年底汽车零部件方案入选工业互联网大会典型案例，品牌背书提升，可能带来更多商机",
+      "钉钉2025年全面转向AI驱动，生态服务商面临能力升级窗口"
+    ],
+    "entryStrategy": "借钉钉AI转型趋势切入，强调自身产品与嘉点现有钉钉/Teambition生态的互补性，以小团队POC快速验证价值",
+    "urgency": "窗口期6-12个月内，钉钉AI化加速将推动生态服务商整体升级，竞争对手可能先布局"
   },
   "painPoints": [
-    {
-      "area": "项目管理",
-      "description": "多项目并行混乱、进度不透明 [假设待验证]",
-      "severity": "中 [假设待验证]"
-    },
-    {
-      "area": "客户管理",
-      "description": "客户信息分散、销售过程不透明 [假设待验证]",
-      "severity": "中 [假设待验证]"
-    },
-    {
-      "area": "知识管理",
-      "description": "经验在个人脑中、新人培养慢 [假设待验证]",
-      "severity": "低 [假设待验证]"
-    },
-    {
-      "area": "交付管理",
-      "description": "需求变更频繁、交付延期 [假设待验证]",
-      "severity": "中 [假设待验证]"
-    },
-    {
-      "area": "回款管理",
-      "description": "账期长、回款难跟踪 [假设待验证]",
-      "severity": "低 [假设待验证]"
-    }
+    { "area": "项目管理", "description": "多项目并行实施（政企+制造业），进度不透明、资源冲突风险高 [假设待验证]", "severity": "高 [假设待验证]" },
+    { "area": "知识管理", "description": "行业方案经验沉淀在个人脑中，新人培养慢、重复造轮子 [假设待验证]", "severity": "高 [假设待验证]" },
+    { "area": "交付管理", "description": "定制开发项目需求变更频繁、交付延期、验收扯皮 [假设待验证]", "severity": "高 [假设待验证]" },
+    { "area": "客户管理", "description": "政企客户信息分散、销售过程不透明、续约依赖个人关系 [假设待验证]", "severity": "中 [假设待验证]" },
+    { "area": "回款管理", "description": "政企项目账期长、回款难跟踪、坏账风险 [假设待验证]", "severity": "中 [假设待验证]" }
   ],
   "opportunities": [
-    {
-      "area": "知识管理",
-      "description": "知识库/AI助手可解决经验沉淀和新人培训问题",
-      "likelihood": "中 [假设待验证]"
-    },
-    {
-      "area": "项目管理",
-      "description": "项目管理平台可提升多项目协同效率",
-      "likelihood": "中 [假设待验证]"
-    },
-    {
-      "area": "CRM",
-      "description": "客户关系管理有助于提升续约率和营收",
-      "likelihood": "低 [假设待验证]"
-    }
+    { "area": "项目管理平台", "description": "嘉点自身做多项目交付，对资源排程、项目看板、工时管理有天然需求，可用内部工具先落地", "likelihood": "高" },
+    { "area": "知识库/文档协作", "description": "行业方案（汽车零部件等）可沉淀为标准化知识资产，加速方案复制和新人培训", "likelihood": "高" },
+    { "area": "客户成功/CRM", "description": "政企客户续费、增购、客户成功管理，支撑从项目制向订阅制转型", "likelihood": "中" }
   ],
   "riskAndPolicy": {
     "legal": {
-      "lawsuitCount": null,
+      "lawsuitCount": 0,
       "lawsuitTypes": [],
       "majorLawsuits": [],
       "administrativePenalties": [],
@@ -111,10 +105,10 @@
     "policy": {
       "isSpecializedSME": false,
       "smeLevel": null,
-      "isHighTech": false,
+      "isHighTech": true,
       "isGazelle": false,
       "isUnicorn": false,
-      "digitalTransformation": { "hit": false, "details": null },
+      "digitalTransformation": { "hit": true, "details": "阿里钉钉五星服务商、专属钉钉核心代理、阿里云数字区县服务商，其钉钉生态汽车零部件解决方案入选工业互联网大会典型应用案例" },
       "esgGreen": { "hit": false, "details": null },
       "xinchuang": { "hit": false, "details": null }
     }
@@ -123,8 +117,8 @@
     "createdAt": "2026-04-07T00:00:00Z",
     "updatedAt": "2026-04-07T00:00:00Z",
     "createdBy": "AI",
-    "version": "1.0",
-    "confidence": 25,
-    "sources": []
+    "version": "1.1",
+    "confidence": 75,
+    "sources": ["天眼查", "招聘平台", "工业互联网大会", "武汉市科创局"]
   }
 }
