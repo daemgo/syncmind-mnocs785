@@ -1,0 +1,130 @@
+{
+  "analysisPath": "B",
+  "confidence": 25,
+  "companyName": "武汉嘉点科技有限公司",
+  "shortName": "嘉点科技",
+  "summary": "武汉地区科技型企业 [假设待验证]",
+  "industry": "科技/软件",
+  "subIndustry": "软件开发/IT服务 [假设待验证]",
+  "scale": "中小企业 [假设待验证]",
+  "mainBusiness": "软件开发与技术服务的科技公司 [假设待验证]",
+  "products": [],
+  "targetCustomers": [],
+  "businessModel": "产品销售/技术服务 [假设待验证]",
+  "rating": null,
+  "tags": [],
+  "website": null,
+  "slogan": null,
+  "isListed": false,
+  "stockCode": null,
+  "revenueScale": null,
+  "registration": {
+    "registeredName": null,
+    "registeredCapital": null,
+    "paidCapital": null,
+    "establishedDate": null,
+    "legalRepresentative": null,
+    "businessStatus": null,
+    "shareholders": [],
+    "branchCount": null,
+    "interpretation": null,
+    "organizationType": "民营企业 [假设待验证]",
+    "keyFindings": []
+  },
+  "hiring": {
+    "keySignals": []
+  },
+  "competition": {
+    "industryRank": null,
+    "marketShare": null,
+    "mainCompetitors": [],
+    "knownClients": []
+  },
+  "organization": {
+    "type": "创业型/中小规模团队 [假设待验证]",
+    "decisionChain": "创始人/老板主导，技术负责人配合评估，执行层决策链短 [假设待验证]",
+    "keyPersons": [],
+    "salesStrategy": "建议直接对接创始人或技术负责人，突出产品价值和交付能力"
+  },
+  "timing": {
+    "phase": "需实地了解 [假设待验证]",
+    "analysisBasis": ["网络信息缺失，无法判断"],
+    "entryStrategy": "建议通过电话/拜访确认需求阶段后制定切入策略",
+    "urgency": "待确认"
+  },
+  "painPoints": [
+    {
+      "area": "项目管理",
+      "description": "多项目并行混乱、进度不透明 [假设待验证]",
+      "severity": "中 [假设待验证]"
+    },
+    {
+      "area": "客户管理",
+      "description": "客户信息分散、销售过程不透明 [假设待验证]",
+      "severity": "中 [假设待验证]"
+    },
+    {
+      "area": "知识管理",
+      "description": "经验在个人脑中、新人培养慢 [假设待验证]",
+      "severity": "低 [假设待验证]"
+    },
+    {
+      "area": "交付管理",
+      "description": "需求变更频繁、交付延期 [假设待验证]",
+      "severity": "中 [假设待验证]"
+    },
+    {
+      "area": "回款管理",
+      "description": "账期长、回款难跟踪 [假设待验证]",
+      "severity": "低 [假设待验证]"
+    }
+  ],
+  "opportunities": [
+    {
+      "area": "知识管理",
+      "description": "知识库/AI助手可解决经验沉淀和新人培训问题",
+      "likelihood": "中 [假设待验证]"
+    },
+    {
+      "area": "项目管理",
+      "description": "项目管理平台可提升多项目协同效率",
+      "likelihood": "中 [假设待验证]"
+    },
+    {
+      "area": "CRM",
+      "description": "客户关系管理有助于提升续约率和营收",
+      "likelihood": "低 [假设待验证]"
+    }
+  ],
+  "riskAndPolicy": {
+    "legal": {
+      "lawsuitCount": null,
+      "lawsuitTypes": [],
+      "majorLawsuits": [],
+      "administrativePenalties": [],
+      "executedPerson": false,
+      "dishonestPerson": false,
+      "businessAnomalies": [],
+      "equityFreeze": false,
+      "equityPledge": false
+    },
+    "policy": {
+      "isSpecializedSME": false,
+      "smeLevel": null,
+      "isHighTech": false,
+      "isGazelle": false,
+      "isUnicorn": false,
+      "digitalTransformation": { "hit": false, "details": null },
+      "esgGreen": { "hit": false, "details": null },
+      "xinchuang": { "hit": false, "details": null }
+    }
+  },
+  "metadata": {
+    "createdAt": "2026-04-07T00:00:00Z",
+    "updatedAt": "2026-04-07T00:00:00Z",
+    "createdBy": "AI",
+    "version": "1.0",
+    "confidence": 25,
+    "sources": []
+  }
+}
